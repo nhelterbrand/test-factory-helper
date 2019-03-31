@@ -105,4 +105,6 @@ Then when you're ready to package up the code you've changed, run this script:
 
 That will update the src folder which contains the Metadata API friendly package that can be deployed to Sandboxes/Production environments and is what the "Deploy to Salesforce" button uses.
 
-## Issues
+## Future Ideas
+
+- Validation Rule helper. Parsing Validation Rules on an object to populate the correct fields with the right values so that validation rules don't stop a test record from being created
