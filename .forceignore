@@ -3,3 +3,7 @@
 #
 
 package.xml
+force-app/main/default/layouts
+force-app/main/default/settings
+force-app/main/default/profiles
+force-app/main/default/objects
