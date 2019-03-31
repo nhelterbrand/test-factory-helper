@@ -21,14 +21,14 @@ This class can help be the foundation for the usual scenario of creating a class
 
 creates a record of the object specified in the objectName parameter with the required fields populated.
 
-Signature
+**Signature**
 `public static SObject createRecord(String objectName)`
 
-Parameters
-objectName
+**Parameters**
+*objectName*
 Type: `String`
 
-Return Value
+**Return Value**
 Type: `SObject`
 
 Example
@@ -45,17 +45,17 @@ Example
 
 creates a record and allows a list of field names that aren't marked as required in the system but need to be populated.
 
-Signature
+**Signature**
 `public static SObject createRecord(String objectName, List<String> additionalFieldsToPopulate)`
 
-Parameters
-objectName
+**Parameters**
+*objectName*
 Type: `String`
 
-additionalFieldsToPopulate
+*additionalFieldsToPopulate*
 Type: `List<String>`
 
-Return Value
+**Return Value**
 Type: `SObject`
 
 Example
@@ -72,14 +72,14 @@ Example
 
 does not create a record, but returns the record with required fields populated.
 
-Signature
+**Signature**
 `public static SObject populateRequiredFields(String objectName)`
 
-Parameters
-objectName
+**Parameters**
+*objectName*
 Type: `String`
 
-Return Value
+**Return Value**
 Type: `SObject`
 
 Example
